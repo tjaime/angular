@@ -1,0 +1,10 @@
+<div>
+    Student <a href="#" (click)="clicked()">{{student.name}}</a> 
+    <br>
+    <button (click)="description.focus()">Focus!</button>
+    <textarea #description></textarea>
+    <div *ngIf="student.isStudent" >
+        Template estudante: {{student.template}}
+    </div>
+    
+</div>
